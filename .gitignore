@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+# Ignore all JSON files in wallets folder
+wallets/*.json
+
+# But include the example file
+!wallets/wallet.json.example
+*.log
+.DS_Store

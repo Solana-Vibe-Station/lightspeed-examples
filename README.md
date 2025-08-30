@@ -4,7 +4,7 @@ Example code for integrating Solana Vibe Station's LightSpeed service into your 
 
 ## What is this?
 
-This repository provides TypeScript examples showing how to add LightSpeed priority tips (0.001001 SOL) to different types of Solana transactions. The tips ensure your transactions get priority processing through SVS's LightSpeed RPC endpoints.
+This repository provides TypeScript examples showing how to add LightSpeed priority tips (0.001 SOL) to different types of Solana transactions. The tips ensure your transactions get priority processing through SVS's LightSpeed RPC endpoints.
 
 ## Setup
 

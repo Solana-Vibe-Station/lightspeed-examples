@@ -15,7 +15,7 @@ npm install
 
 2. Copy `.env.example` to `.env` and add your configuration:
 ```bash
-RPC_ENDPOINT=https://epic.rpc.solanavibestation.com/?api_key=YOUR_API_KEY
+RPC_ENDPOINT=https://basic.rpc.solanavibestation.com/?api_key=YOUR_API_KEY
 RPC_LIGHTSPEED_ENDPOINT=https://basic.swqos.solanavibestation.com/lightspeed?api_key=YOUR_API_KEY
 WALLET_PATH=./wallets/wallet.json
 USE_LIGHTSPEED=true
@@ -54,7 +54,7 @@ await tokenTransfer('RECIPIENT', 'TOKEN_MINT', amount); // custom token
 ## Configuration
 
 - Set `USE_LIGHTSPEED=false` in `.env` to disable priority tips
-- When enabled, adds 0.001001 SOL tip to transactions for priority processing
+- When enabled, adds 0.001 SOL tip to transactions for priority processing
 
 ## Requirements
 

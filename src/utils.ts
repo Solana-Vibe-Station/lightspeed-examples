@@ -41,7 +41,7 @@ export const DEFAULT_RECIPIENT = process.env.DEFAULT_RECIPIENT || 'So11111111111
 
 // Configuration constants
 export const WALLET_PATH = path.resolve(process.env.WALLET_PATH);
-export const TIPS_VIBE_FEE = 1001000; // 0.001001 SOL tip for priority processing
+export const TIPS_VIBE_FEE = 1000000; // 0.001 SOL tip for priority processing
 export const TIPS_VIBE_STATION = new PublicKey('53PhM3UTdMQWu5t81wcd35AHGc5xpmHoRjem7GQPvXjA');
 
 // RPC Endpoints from environment
